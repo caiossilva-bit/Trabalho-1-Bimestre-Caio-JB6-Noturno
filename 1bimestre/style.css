@@ -1,0 +1,158 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #0a0a0a, hsl(64, 100%, 50%));
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* NAVBAR */
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #00ff88;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffdf00;
+    text-shadow: 0 0 10px #ffdf00;
+}
+
+/* TITULOS */
+
+h1, h2, h3 {
+    margin: 20px 0;
+    color: #00ff88;
+    text-shadow: 0 0 10px rgba(0,255,136,0.5);
+}
+
+/* PARÁGRAFOS */
+p {
+    margin-bottom: 15px;
+    max-width: 900px;
+}
+
+/* IMAGENS */
+img {
+    border-radius: 15px;
+    margin: 15px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff88;
+}
+
+/* LISTAS */
+ol {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* TABELAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #00ff88;
+    color: #000000;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+tr:hover {
+    background: rgba(0,255,136,0.2);
+}
+
+/* FORMULÁRIO */
+form {
+    margin-top: 20px;
+    background: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* BOTÕES */
+button {
+    background: #00ff88;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffdf00;
+}
+
+/* ÁUDIO E VÍDEO */
+audio, video {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* HR */
+hr {
+    margin: 30px 0;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
