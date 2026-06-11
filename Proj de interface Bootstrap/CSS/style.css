@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.banner{
+    height:600px;
+    object-fit:cover;
+}
+
+.navbar{
+    background:#00000011 !important;
+}
+
+.btn-warning{
+    background:#FFC107;
+}
+
+h2{
+    color:#8B0000;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#00000011 !important;
+}
+
